@@ -1,4 +1,4 @@
-# Magento1 PaymentFailedEmail module
+# Magento 1 PaymentFailedEmail module
 
 By default, there is no possibility in Magento 1 to disable sending an email with a failed payment.
 
