@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Magecloud_PaymentFailedEmail>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Magecloud_PaymentFailedEmail>
+    </modules>
+</config>

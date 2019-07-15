@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright (c) 2019. All rights reserved.
+  ~ @author: Sviatoslav Lashkiv
+  ~ @mail:   ss.lashkiv@gmail.com
+  ~ @github: https://github.com/sviatoslav-lashkiv
+  -->
+
+<config>
+    <modules>
+        <Magecloud_PaymentFailedEmail>
+            <version>0.1</version>
+        </Magecloud_PaymentFailedEmail>
+    </modules>
+    <global>
+        <helpers>
+            <checkout>
+                <rewrite>
+                    <data>Magecloud_PaymentFailedEmail_Helper_Data</data>
+                </rewrite>
+            </checkout>
+        </helpers>
+    </global>
+    <default>
+        <checkout>
+            <payment_failed>
+                <enable_sending_failed_payment_email>1</enable_sending_failed_payment_email>
+            </payment_failed>
+        </checkout>
+    </default>
+</config>
